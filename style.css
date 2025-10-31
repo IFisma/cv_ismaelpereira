@@ -3,7 +3,7 @@ body{
     display:flex ;
     justify-content: center ;
     align-items: center;
-    margin: 10%;
+    margin: 5%;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -47,8 +47,33 @@ padding-left: 20px;
     align-items: center;
     border-radius:12px;
     box-shadow: 0 6px 18px 0.6px rgba(9, 26, 59, 0.6) ;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
 }
+
 h2,h3,h4,li{
     padding-left: 30px;
     color: antiquewhite;
+}
+@media (max-width: 768px){
+    body{
+        margin: 0;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+h2,h3,h4,li,.parrafo,.contacto{
+    padding-left: 10px;
+    text-align: left;
+}
+.imgsecu{
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+.fondo{
+    width: 100%;
+    padding: 15px;
 }
